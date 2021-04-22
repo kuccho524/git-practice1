@@ -65,3 +65,45 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .content {
+    width: 90%;
+    margin: 0 auto 20px;
+
+  }
+
+  .content:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .content {
+    width: 90%;
+    margin: 0 auto 20px;
+
+  }
+
+  .content:last-child {
+    margin-bottom: 0;
+  }
+}
