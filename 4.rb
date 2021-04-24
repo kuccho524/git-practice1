@@ -1,0 +1,2 @@
+name = "Snorlax"
+puts name
